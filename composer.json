@@ -1,5 +1,5 @@
 {
-    "name": "fluidtypo3/flux",
+    "name": "kanti/flux",
     "description": "The flux package from FluidTYPO3",
     "type": "typo3-cms-extension",
     "homepage": "http://fluidtypo3.org",
@@ -13,6 +13,10 @@
         "psr-4": {
             "FluidTYPO3\\Flux\\": "Classes/"
         }
+    },
+    "replace": {
+	"flux": "dev-development#f33e0ea",
+        "fluidtypo3/flux": "dev-development#f33e0ea"
     },
     "suggest": {
         "fluidtypo3/vhs": "ViewHelper library for Fluid templates.",
