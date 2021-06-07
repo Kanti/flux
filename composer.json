@@ -15,8 +15,7 @@
         }
     },
     "replace": {
-	"flux": "dev-development#f33e0ea",
-        "fluidtypo3/flux": "dev-development#f33e0ea"
+        "fluidtypo3/flux": "*"
     },
     "suggest": {
         "fluidtypo3/vhs": "ViewHelper library for Fluid templates.",
